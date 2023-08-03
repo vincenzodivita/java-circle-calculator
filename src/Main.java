@@ -19,7 +19,10 @@ public class Main {
         // Calculate circumference
         double C = d * Math.PI;
 
+        // Calculate area
+        double A = r * r * Math.PI;
+
         // Report printing
-        System.out.print(d + " " + C);
+        System.out.print(d + " " + C + " " + A);
     }
 }
