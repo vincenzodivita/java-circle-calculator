@@ -13,6 +13,10 @@ public class Main {
         double r = scanner.nextDouble();
         scanner.nextLine();
 
-    
+        // Calculate diameter
+        double d = 2 * r;
+
+        // Report printing
+        System.out.println(d);
     }
 }
