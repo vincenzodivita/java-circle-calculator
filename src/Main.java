@@ -5,6 +5,9 @@ public class Main {
         // Import Scanner
         Scanner scanner = new Scanner(System.in);
 
-        // Let's code!
+        // Welcome message
+        System.out.println("Benvenuto! Adesso ti aiuterò a calcolare perimetro e area dell tuo cerchio!");
+
+    
     }
 }
