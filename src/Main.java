@@ -23,6 +23,12 @@ public class Main {
         double A = r * r * Math.PI;
 
         // Report printing
-        System.out.print(d + " " + C + " " + A);
+        System.out.println("Bene, ecco a te i risultati:");
+        System.out.println("Diametro: " + d + " cm");
+        System.out.println("Circonferenza: " + C + " cm");
+        System.out.println("Area: " + A + " cm\u00B2");
+
+        // Ending message
+        System.out.println("Spero di esserti stato utile, alla prossima!");
     }
 }
