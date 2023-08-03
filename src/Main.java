@@ -6,13 +6,12 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Welcome message
-        System.out.println("Benvenuto! Adesso ti aiuterò a calcolare perimetro e area dell tuo cerchio!");
+        System.out.println("Benvenuto! Adesso ti aiuterò a calcolare circonferenza e area dell tuo cerchio!");
 
         // Ask for radius
         System.out.println("Dimmi un po', quanti cm è lungo il raggio del tuo cerchio?");
         int r = scanner.nextInt();
         scanner.nextLine();
-
 
     }
 }
