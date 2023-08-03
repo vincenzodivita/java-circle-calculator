@@ -16,7 +16,10 @@ public class Main {
         // Calculate diameter
         double d = 2 * r;
 
+        // Calculate circumference
+        double C = d * Math.PI;
+
         // Report printing
-        System.out.println(d);
+        System.out.print(d + " " + C);
     }
 }
