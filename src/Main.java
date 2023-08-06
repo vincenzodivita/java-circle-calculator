@@ -30,5 +30,7 @@ public class Main {
 
         // Ending message
         System.out.println("Spero di esserti stato utile, alla prossima!");
+
+        scanner.close();
     }
 }
